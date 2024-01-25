@@ -8,7 +8,7 @@
 
 int main() {
     char inputPassword[50];
-    const char *hardcodedPassword = "secret123";  // Hardcoded password
+    const char *hardcodedPassword = "555nase!";  // Hardcoded password
 
     printf("Enter password to access the system file: ");
     fgets(inputPassword, sizeof(inputPassword), stdin);
