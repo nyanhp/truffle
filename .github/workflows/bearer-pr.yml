@@ -23,6 +23,10 @@ jobs:
           format: sarif
           output: results.sarif
           diff: true
+      - name: output
+        if: always()
+        run: |
+            cat results.sarif
       - name: Run reviewdog
         if: always()
         env:
