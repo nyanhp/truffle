@@ -8,7 +8,8 @@
 
 int main() {
     char inputPassword[50];
-    const char *hardcodedPassword = "555nase!!";  // Hardcoded password
+    const char *hardcodedPassword = "555nase!!!";  // Hardcoded password
+    const char *aws_s3_key* = "abcdef111";
 
     printf("Enter password to access the system file: ");
     fgets(inputPassword, sizeof(inputPassword), stdin);
